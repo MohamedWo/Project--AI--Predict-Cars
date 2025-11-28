@@ -134,27 +134,27 @@ mileags=st.number_input('mileags')
 Levy=st.number_input('Levy')
 #______________________________
 
-# pd.DataFrame({'Manufacturer':manu2,'Model':Model,'category':category,'leather':leather
-#               ,'Fuel type':Fuel,'Mileage':mileags,'Gear box type':Auto,
-#               'Drive Wheels':Drive,'Wheel':wheel,'Color':color,'Levy':Levy
-#               ,'Engine volume':Engine,'Airbags':Airbag,'Age':Age},index=0)
-#____________
-# df=pd.DataFrame({
-#     'Manufacturer': manu2,
-#     'Model': Model,
-#     'category': category,
-#     'leather': leather,
-#     'Fuel type': Fuel,
-#     'Mileage': mileags,
-#     'Gear box type': Auto,
-#     'Drive Wheels': Drive,
-#     'Wheel': wheel,
-#     'Color': color,
-#     'Levy': Levy,
-#     'Engine volume': Engine,
-#     'Airbags': Airbag,
-#     'Age': Age
-# }, index=[0])
+pd.DataFrame({'Manufacturer':manu2,'Model':Model,'category':category,'leather':leather
+              ,'Fuel type':Fuel,'Mileage':mileags,'Gear box type':Auto,
+              'Drive Wheels':Drive,'Wheel':wheel,'Color':color,'Levy':Levy
+              ,'Engine volume':Engine,'Airbags':Airbag,'Age':Age},index=0)
+____________
+df=pd.DataFrame({
+    'Manufacturer': manu2,
+    'Model': Model,
+    'category': category,
+    'leather': leather,
+    'Fuel type': Fuel,
+    'Mileage': mileags,
+    'Gear box type': Auto,
+    'Drive Wheels': Drive,
+    'Wheel': wheel,
+    'Color': color,
+    'Levy': Levy,
+    'Engine volume': Engine,
+    'Airbags': Airbag,
+    'Age': Age
+}, index=[0])
 
 #_____________
 df = pd.DataFrame({
@@ -184,6 +184,7 @@ if p:
     
 
 # ------------------------------------------------------------------------
+
 
 
 
