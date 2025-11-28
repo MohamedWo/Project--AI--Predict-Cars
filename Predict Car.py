@@ -5,7 +5,12 @@ import pickle
 # python -m streamlit run "Predict Car.py"  To let python work
 
 
-data = pickle.load(open(r"C:\Users\jddkd\Downloads\Car_Predict.sav", "rb"))
+# data = pickle.load(open(r"C:\Users\jddkd\Downloads\Car_Predict.sav", "rb"))
+
+import pickle
+
+with open("Car_Predict.sav", "rb") as f:
+    data = pickle.load(f)
 
 
 st.title('Car price Prediction')
@@ -179,5 +184,6 @@ if p:
     pre=data.predict(df)
     st.sidebar.write("price is :", pre)
     
+
 
 
